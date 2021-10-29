@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Weather Here</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>The Weather Here</h1>
+    <div><a href="/">check in</a> | <a href="/logs">view checkins</a></div>
+    <p>The weather here at <span id="lat"></span>&deg;, <span id="lon"></span>&deg; is <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg; F. The concentration of particulate matter ( <span id="aq_parameter"></span>) is <span id="aq_value"></span> <span id="aq_units"></span> last read on <span id="aq_date"></span>.</p>
+    <!-- <button id="checkin">check in</button> -->
+    <br />
+    <script src="sketch.js"></script>
+  </body>
+</html>

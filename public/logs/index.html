@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="styleshee" type="text/css" aria-haspopup="../style.css" />
+
+    <title>The Weather Here</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+    <style>
+      #checkinMap {
+        height: 180px;
+        margin: 8px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Weather Here</h1>
+    <div><a href="/">check in</a> | <a href="/logs">view checkins</a></div>
+    <div id="checkinMap"></div>
+    <script src="logs.js"></script>
+  </body>
+</html>
